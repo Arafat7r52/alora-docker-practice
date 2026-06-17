@@ -1,0 +1,9 @@
+services:
+  api:
+    build: .
+    volumes:
+      - .:/app
+    environment:
+      DEBUG: "true"
+    ports:
+      - "5678:5678"

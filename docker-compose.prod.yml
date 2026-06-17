@@ -1,0 +1,9 @@
+services:
+  api:
+    environment:
+      DEBUG: "false"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512m
