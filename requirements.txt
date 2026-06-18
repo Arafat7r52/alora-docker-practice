@@ -2,4 +2,5 @@ fastapi
 uvicorn[standard]
 httpx
 redis
-psycopg2-binary
+pytest
+ruff
